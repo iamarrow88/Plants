@@ -1,0 +1,24 @@
+$main-background: #EDF2EC;
+$main-text: #B1AEAD;
+$titles: #499A18;
+$dark-title: #717171;
+$title-accents: #E06733;
+
+@mixin button {
+  width: 159px;
+  height: 44px;
+  background-color: transparent;
+  border: 2px solid $title-accents;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #000000;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+@mixin hover-button {
+  background-color: $title-accents;
+  color: #fff;
+  transition: all .3s;
+}
